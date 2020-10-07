@@ -2,17 +2,19 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jean-Yves Lalande <jylalande@yahoo.com>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "joi": "^17.2.1",
     "knex": "^0.21.6",
     "sqlite3": "^5.0.0"
-  }
+  },
+  "repository": "https://github.com/jylalande123/node-express.git"
 }

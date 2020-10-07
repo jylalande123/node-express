@@ -16,3 +16,4 @@ server.use('/api/lessons', lessonsRouter);
 server.use('/api/messages', messagesRouter);
 
 module.exports = server;
+
