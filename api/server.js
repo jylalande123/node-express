@@ -8,7 +8,7 @@ const server = express();
 server.use(express.json()); // middle ware How to parse JSON
 
 server.get('/', (req,res) => {
-    res.json({message: 'Where is Thor'});
+    res.json({message: 'Where is Thor?'});
 });
 
 
